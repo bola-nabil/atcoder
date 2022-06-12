@@ -1,12 +1,16 @@
-#include <iostream>
+//bola nabil
+
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-	int a, p;
+	int a, p,x,res;
 	cin >> a >> p;
-	int res = ((a * 3) + p) / 2;
+	x = (a - p) / 2;
+	res = (a + p) + x;
 
-	cout << res << endl;
+	if (a == 0) cout << "0";
+	else cout << res;
 	return 0;
 }
